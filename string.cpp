@@ -2,7 +2,7 @@
 
 #include <iostream>
 #include <cstring> //definira nqkolko funkcii za rabota s c string i masivi
-#include "ostream" 
+#include <ostream> 
 
 
 class String // predstavq v pamtta simvolen nizs proizvolna golemina i redica operacii s niza
