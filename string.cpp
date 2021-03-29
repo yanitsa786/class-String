@@ -1,8 +1,8 @@
 
 
 #include <iostream>
-#include <cstring>
-#include "ostream"
+#include <cstring> //definira nqkolko funkcii za rabota s c string i masivi
+#include "ostream" 
 
 
 class String // predstavq v pamtta simvolen nizs proizvolna golemina i redica operacii s niza
@@ -12,7 +12,7 @@ public:
 
 	void init(const char *s) // inicializirane na niz
 	{
-		str = new char[strlen(s) + 1];
+		str = new char[strlen(s) + 1] // zadelqme pamet
 		strcpy(str, s);
 	}
 
